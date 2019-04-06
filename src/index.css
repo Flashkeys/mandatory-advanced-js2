@@ -6,9 +6,104 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #232323;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+a {
+  text-decoration: none;
+  color: orangered;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.tee {
+  color: green;
+}
+
+[type=radio]{
+  margin: 8px;
+}
+td, th {
+  color: white;
+}
+td {
+  border-bottom: 1px dotted #303030;
+  font-size: 20px;
+}
+.border-left-right {
+  border-right: 2px solid orangered;
+  border-left: 2px solid orangered; 
+}
+.border-left {
+  border-left: 2px solid orangered;
+}
+.border-right {
+  border-right: 2px solid orangered;
+}
+.main {
+  border: 2px solid orangered;
+  width: 50%;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  flex-direction: column;
+}
+.add {
+  border-bottom: none;
+  font-size: 20px;
+  margin: 20px;
+}
+h3 {
+  color: white;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.details-content {
+  color: white;
+}
+.home {
+  font-size: 30px;
+  border-bottom: 1px solid orangered;
+}
+.container-add {
+  display: flex;
+  flex-direction: column;
+}
+
+.success {
+  background: #d4edda;
+  width: 300px;
+  padding: 16px;
+  color: #155724;
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+}
+.error {
+  background: #f8d7da  ;
+  width: 300px;
+  padding: 16px;
+  color: #721c24;
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+}
+
+form {
+  margin-top: 30px;
 }
